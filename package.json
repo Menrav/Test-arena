@@ -1,0 +1,21 @@
+{
+  "name": "Intro-to-webdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Menrav/Intro-to-webdev.git",
+  "license": "MIT",
+  "scripts": {
+    "fix": "prettier --write"
+  },
+  "calavera": {
+    "css": true
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-prettier": "^1.2.0"
+  }
+}
