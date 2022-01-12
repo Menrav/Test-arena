@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  padding: 0 5rem 0 5rem;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.page-header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/Images/Banner.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.main-nav {
+  width: 100%;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.main-menu li {
+  background: transparent;
+  flex: 0 1 16%;
+  line-height: 3rem;
+}
+
+.main-menu a:link,
+.main-menu a:visited {
+  display: flex;
+  color: black;
+  flex: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*.main-menu {
+		display: none;
+	}*/
+
+.school-logo {
+  width: auto;
+  height: 15rem;
+  margin-top: 1rem;
+}
+
+.school-quote {
+  text-align: center;
+  font-size: 30px;
+  padding: 1rem;
+}
+
+.top-achievers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-achievers img {
+  width: 15rem;
+  height: auto;
+}
+
+.academic h2,
+.school-calendar h2,
+.new-learner h2,
+.contact-us-container h2,
+.who-are-we h2 {
+  text-align: center;
+}
+
+.sport-culture {
+  text-align: center;
+}
+
+.school-calendar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.school-calendar img {
+  width: 50%;
+  height: auto;
+}
+
+.new-learner {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.view-button {
+  background: lightseagreen;
+  padding: 1rem;
+  border-radius: 5rem;
+  color: white;
+}
+
+.new-learner-docs h3 {
+  margin-bottom: 3rem;
+}
+
+.sport img {
+  max-width: 50%;
+}
+
+.contact-us img {
+  width: 5rem;
+}
+
+.contact-us {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+.contact-us-container {
+  margin-top: 5rem;
+  padding: 1rem;
+  border: double 0.5rem gold;
+}
+
+/*	.back-to-top {
+		position: fixed;
+		right: 1%;
+		top: 92%;
+		width: 4rem;
+	}
+*/
+
+@media screen and (min-width: 49.75rem) {
+  .contact-us {
+    flex-flow: row;
+  }
+
+  /* All Hover States */
+
+  .main-menu a:hover,
+  .main-menu a:focus {
+    transform: scale(1.2) translate(0, -0.25rem);
+    background: wheat;
+    border-radius: 5rem;
+    transition: 1s all;
+  }
+
+  .school-calendar img:hover,
+  .school-calendar img:focus {
+    transform: scale(1.5);
+    margin: 10rem;
+    transition: 1s all;
+  }
+
+  .school-calendar img:hover {
+    margin: 0;
+    transform: none;
+  }
+}
